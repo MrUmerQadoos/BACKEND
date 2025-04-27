@@ -44,7 +44,7 @@ app.use(cookieParser());
 
 // CORS configuration
 const allowedOrigins = [
-  "https://frontend-ecocs.vercel.app/"
+  "https://backend-three-theta-39.vercel.app/"
 ];
 app.use(
   cors({
