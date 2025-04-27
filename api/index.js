@@ -44,8 +44,7 @@ app.use(cookieParser());
 
 // CORS configuration
 const allowedOrigins = [
-  "http://localhost:5173",
-  "https://ecocs-portal.vercel.app",
+  "https://frontend-ecocs.vercel.app/"
 ];
 app.use(
   cors({
